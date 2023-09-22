@@ -1,0 +1,1 @@
+This repository contains all the resources for the COEN 6501 [Digital System Design and Synthesis] Final Project.
