@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity input_multiplier is
+    port (
+    a, b: in unsigned(7 downto 0);
+    result: out unsigned(15 downto 0);
+    );
+end input_multiplier;
+
+architecture multiplier of input_multiplier is
+    begin
+        result <= (a * b);
+end multiplier;
