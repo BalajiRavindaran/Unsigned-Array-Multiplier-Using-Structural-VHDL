@@ -4,8 +4,8 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity input_multiplier is
     port (
-    a, b: in std_logic_vector(7 downto 0);
-    result: out std_logic_vector(15 downto 0)
+    a, b: in unsigned(7 downto 0);
+    result: out unsigned(15 downto 0)
     );
 end input_multiplier;
 
