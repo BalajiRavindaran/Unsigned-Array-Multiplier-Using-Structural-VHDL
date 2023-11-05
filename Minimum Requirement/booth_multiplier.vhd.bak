@@ -45,7 +45,7 @@ architecture Behavioral of BoothMultiplier is
 signal temp_signal : std_logic_vector(7 downto 0);
 begin
 temp_signal <= a;
-    process(a, b)
+    process
         variable product: std_logic_vector(15 downto 0) := (others => '0'); -- Initialize product to 0
         variable multiplier_shifted: std_logic_vector(7 downto 0) := temp_signal;
         variable partial_product: std_logic_vector(15 downto 0);
