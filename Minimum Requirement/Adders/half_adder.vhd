@@ -2,7 +2,7 @@
 --
 -- Authors: Nitish Sundarraj Balaji, Balaji Ravindaran
 -- 
--- File: header.vhd
+-- File: half_adder.vhd
 
 -- Design Units:
 --      entity full_adder
@@ -32,21 +32,21 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity full_adder is
+entity half_adder is
     port(
-        A : in std_logic_vector(7 downto 0);
-        B : in std_logic_vector(7 downto 0);
-        Cin : in std_logic_vector(7 downto 0);
+        A : in std_logic;
+        B : in std_logic;
+        Cin : in std_logic;
 
-        S : out std_logic_vector(7 downto 0);
-        Cout : out std_logic_vector(7 downto 0)
+        S : out std_logic;
+        Cout : out std_logic
     );
-end full_adder;
+end half_adder;
 
-architecture behavioral of full_adder is
+architecture behavioral of half_adder is
 begin
     
-    S <= A xor B xor Cin;
-    Cout <= (A and B) or (Cin and A) or (Cin and B);
+    S <= A xor B;
+    Cout <= (A and B);
 
 end behavioral;
