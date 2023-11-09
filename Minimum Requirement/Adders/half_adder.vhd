@@ -36,7 +36,6 @@ entity half_adder is
     port(
         A : in std_logic;
         B : in std_logic;
-        Cin : in std_logic;
 
         S : out std_logic;
         Cout : out std_logic

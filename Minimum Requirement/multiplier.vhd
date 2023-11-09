@@ -1,14 +1,18 @@
-library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
-entity program_counter is
-	port(
-		clk: in std_logic;
-        address_in: in std_logic_vector(31 downto 0);
+entity multiplier is
+    port(
+        A : in std_logic;
+        B : in std_logic;
 
-        current_address: out std_logic_vector(31 downto 0);
-		next_address: out std_logic_vector(31 downto 0)
-        
-	);
-end program_counter;
+		C: out std_logic
+    );
+end multiplier;
+
+architecture behavioral of multiplier is
+begin
+    
+    C <= A and B; 
+
+end behavioral;
