@@ -234,6 +234,6 @@ begin
     FA48: full_adder port map(A => I63, B => C49, Cin => C55, S => O15, Cout => O16); -- A7 * B7 + A6 * B7 + A5 * B7 + A4 * B7 + A3 * B7 + A2 * B7 + A1 * B7 + A0 * B7 + A7 * B6 + A6 * B6 + A5 * B6 + A4 * B6 + A3 * B6 + A2 * B6 + A1 * B6 + A0 * B6 + A7 * B5 + A6 * B5 + A5 * B5 + A4 * B5 + A3 * B5 + A2 * B5 + A1 * B5 + A1 * B5 + A0 * B5 + A7 * B4 + A6 * B4 + A5 * B4 + A4 * B4 + A3 * B4 + A2 * B4 + A1 * B4 + A1 * B4 + A0 * B4 (Fifty Third Full Adder)
 
     --Output Stage
-    P <= O1 & O2 & O3 & O4 & O5 & O6 & O7 & O8 & O9 & O10 & O11 & O12 & O13 & O14 & O15 & O16;
+    P <= O16 & O15 & O14 & O13 & O12 & O11 & O10 & O9 & O8 & O7 & O6 & O5 & O4 & O3 & O2 & O1;
 
 end behavior;
