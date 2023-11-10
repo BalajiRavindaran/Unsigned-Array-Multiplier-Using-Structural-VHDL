@@ -64,6 +64,7 @@ begin
         
         -- Stop simulation
         wait;
+        report "All Test Cases Passed";
     end process;
 
 end behavior;
