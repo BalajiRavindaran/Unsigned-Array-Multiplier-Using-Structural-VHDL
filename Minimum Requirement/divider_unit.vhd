@@ -13,7 +13,7 @@ architecture behavioral of divider_unit is
     signal temp : std_logic_vector(13 downto 0);
 
     begin
-        temp <= A(13 downto 0);
+        temp <= A(15 downto 2);
         D <= "00" & temp;
 
 end behavioral;
