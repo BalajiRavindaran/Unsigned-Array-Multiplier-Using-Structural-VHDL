@@ -31,6 +31,8 @@ begin
                 report "Test case " & integer'image(i) & " Failed" severity error;
         end loop;
         wait;
+
+        
     end process;
 
 end behavior;
