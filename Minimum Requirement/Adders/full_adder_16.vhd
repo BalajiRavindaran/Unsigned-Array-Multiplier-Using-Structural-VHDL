@@ -7,6 +7,7 @@ entity full_adder_16 is
 
     S : out std_logic_vector(15 downto 0);
     Cout : out std_logic
+    
     );
 end full_adder_16;
 
