@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity internal_register_8 is
+entity internal_register_8_beh is
     Port ( clk : in  STD_LOGIC;
            reset : in  STD_LOGIC;
            load : in  STD_LOGIC;
@@ -9,7 +9,7 @@ entity internal_register_8 is
            B : out  STD_LOGIC_VECTOR (7 downto 0));
 end internal_register_8;
 
-architecture Behavioral of internal_register_16 is
+architecture Behavioral of internal_register_8_beh is
     begin 
         process (clk, reset)
         begin 
