@@ -33,3 +33,9 @@ architecture behavior of wallace_tree_multiplier is
             C: out std_logic
         );
     end component;
+
+    begin
+
+
+
+    end behavior;
