@@ -15,7 +15,8 @@ architecture behavior of baugh_wooler_multiplier is
     signal O1, O2, O3, O4, O5, O6, O7, O8, O9, O10, O11, O12, O13, O14, O15, O16 : std_logic; -- Output Signals
     
     signal I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, I16, I17, I18, I19, I20, I21, I22, 
-    I23, I24, I25, I26, I27, I28, I29, I30, I31, I32, I33, I34, I35, I36, I37, I38, I39, I40, I41, I42, I43, I44, I45, I46, I47, I48, I49, I50, I51, I52, I53, I54, I55, I56, I57, I58, I59, I60, I61, I62 : std_logic; -- Intermediate Signals
+    I23, I24, I25, I26, I27, I28, I29, I30, I31, I32, I33, I34, I35, I36, I37, I38, I39, I40, I41, I42, I43, I44, 
+    I45, I46, I47, I48, I49, I50, I51, I52, I53, I54, I55, I56, I57, I58, I59, I60, I61, I62, I63 : std_logic; -- Intermediate Signals
     
     signal S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, 
     S23, S24, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S36, S37, S38, S39, S40, S41, S42, S43, S44 : std_logic;
@@ -243,7 +244,8 @@ architecture behavior of baugh_wooler_multiplier is
 
     NOT15: not_gate port map(A => B(7), B => N15); -- NOT B7
     NOT16: not_gate port map(A => A(7), B => N16); -- NOT A7
-    FA43: full_adder port map(A => N15, B => N16, Cin => '0', S => S44, Cout => C50); -- NOT A7 * NOT B7 + A7 * B7 (First Full Adder)
+    M64: multiplier port map(A => A(7), B => B(7), C => I63); -- A7 * B7
+    FA43: full_adder port map(A => N15, B => N16, Cin => I63, S => S44, Cout => C50); -- NOT A7 * NOT B7 + A7 * B7 (First Full Adder)
 
     --Eighth Stage
     FA44: full_adder port map(A => A(7), B => A(7), Cin => B(7), S => O8, Cout => C51); -- A0 * B7 + A1 * B6 + A0 * B8 (First Full Adder)
@@ -262,7 +264,7 @@ architecture behavior of baugh_wooler_multiplier is
 
     FA51: full_adder port map(A => C49, B => S44, Cin => C57, S => O15, Cout => C58); -- A7 * B7 + A7 * B7 + A7 * B8 (Eighth Full Adder)
 
-    FA52: full_adder port map(A => C50, B => '1', Cin => C58, S => O16, Cout => C59); -- A7 * B7 + A7 * B7 + A7 * B8 (Ninth Full Adder)
+    FA52: full_adder port map(A => S44, B => '0', Cin => C58, S => O16, Cout => C59); -- A7 * B7 + A7 * B7 + A7 * B8 (Ninth Full Adder)
 
     --Output Assignment
     P <= O16 & O15 & O14 & O13 & O12 & O11 & O10 & O9 & O8 & O7 & O6 & O5 & O4 & O3 & O2 & O1;
