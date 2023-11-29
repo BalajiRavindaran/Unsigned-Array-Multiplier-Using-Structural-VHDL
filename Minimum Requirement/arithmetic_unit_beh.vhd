@@ -12,7 +12,7 @@ entity arithmetic_unit_beh is
            B : in  STD_LOGIC_VECTOR (7 downto 0);
            P : out  STD_LOGIC_VECTOR (15 downto 0)
            );
-end arithmetic_unit;
+end arithmetic_unit_beh;
 
 architecture Behavioral of arithmetic_unit_beh is
 
