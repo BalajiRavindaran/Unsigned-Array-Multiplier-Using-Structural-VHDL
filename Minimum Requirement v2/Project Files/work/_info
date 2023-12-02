@@ -1,0 +1,503 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Development/GitHub/MIPS-RELOADED
+Earithmetic_hw
+Z0 w1699811035
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Project Files
+Z4 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/arithmetic_hw.vhd
+Z5 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/arithmetic_hw.vhd
+l0
+L4 1
+ViS8mBd_^=Lk94:]De5_G_1
+!s100 mZcSa;48ZekzNLFgZjnL10
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1701532672
+!i10b 1
+Z8 !s108 1701532671.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/arithmetic_hw.vhd|
+Z10 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/arithmetic_hw.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+DEx4 work 13 arithmetic_hw 0 22 iS8mBd_^=Lk94:]De5_G_1
+!i122 0
+l39
+L10 35
+VTl>;cXYFLRIQP_8k?L`No0
+!s100 KUHR?kUQ684UIbG:Sk0zA3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Earray_multiplier
+Z13 w1699633367
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/array_multiplier_8.vhd
+Z15 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/array_multiplier_8.vhd
+l0
+L4 1
+VZNQb257anL`<6i?>43WmF0
+!s100 k@3eQ4_2J[FDT9h1A8fHb0
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1701532672.000000
+Z17 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/array_multiplier_8.vhd|
+Z18 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/array_multiplier_8.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 16 array_multiplier 0 22 ZNQb257anL`<6i?>43WmF0
+!i122 1
+l50
+L13 227
+VQWMNQ=7?T8;>PzoGLT_>01
+!s100 z4z0XoPT=OL;AZ=bk4WAj2
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Edivider_unit
+R0
+R1
+R2
+!i122 2
+R3
+Z19 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/divider_unit.vhd
+Z20 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/divider_unit.vhd
+l0
+L4 1
+V[9a?Sb7NHzO=VkRj1bJ;R3
+!s100 BWI?BH10>`GhF4mDFRdfj2
+R6
+32
+Z21 !s110 1701532673
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/divider_unit.vhd|
+Z23 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/divider_unit.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 12 divider_unit 0 22 [9a?Sb7NHzO=VkRj1bJ;R3
+!i122 2
+l15
+L12 8
+V^zQL8i;DXSKOcW?Id:PN]1
+!s100 n`l9WSO^iGH;:<S[@J3WO0
+R6
+32
+R21
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R11
+R12
+Efull_adder
+Z24 w1699398107
+R1
+R2
+!i122 6
+R3
+Z25 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder.vhd
+Z26 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder.vhd
+l0
+Z27 L35 1
+Vzd1N<KU3F_>NH^IS>z7?63
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+R6
+32
+Z28 !s110 1701532703
+!i10b 1
+Z29 !s108 1701532703.000000
+Z30 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder.vhd|
+Z31 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 10 full_adder 0 22 zd1N<KU3F_>NH^IS>z7?63
+!i122 6
+l47
+L46 7
+V^S<:SC:9lNCXXJiNZWDUd2
+!s100 cU`non;`GL?3hc<^LRTbj1
+R6
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12
+Efull_adder_16
+Z32 w1701531808
+R1
+R2
+!i122 7
+R3
+Z33 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder_16.vhd
+Z34 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder_16.vhd
+l0
+L4 1
+V96blYO01OYQ;<?i?_K35S0
+!s100 QTVh>UAkL;edLUO9WB;PW3
+R6
+32
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder_16.vhd|
+Z36 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/full_adder_16.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 13 full_adder_16 0 22 96blYO01OYQ;<?i?_K35S0
+!i122 7
+l30
+L14 37
+V@SmZ6egoGO`i[XG@2@<j:3
+!s100 80JEIo5Ycg=]ERPC:67H@2
+R6
+32
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R11
+R12
+Ehalf_adder
+R13
+R1
+R2
+!i122 8
+R3
+Z37 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/half_adder.vhd
+Z38 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/half_adder.vhd
+l0
+R27
+V3[m[OjND9kb]RbXYP9U`]0
+!s100 LoNB=0eif3:E8=ACN;hiE1
+R6
+32
+Z39 !s110 1701532704
+!i10b 1
+Z40 !s108 1701532704.000000
+Z41 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/half_adder.vhd|
+Z42 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Adders/half_adder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 10 half_adder 0 22 3[m[OjND9kb]RbXYP9U`]0
+!i122 8
+l46
+L45 7
+VIB<6oMcCc4>O6lcZ9cSGN1
+!s100 oOaB@bggMkNJmA;Qc>lI=3
+R6
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Emultiplier
+R13
+R1
+R2
+!i122 9
+R3
+Z43 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/multiplier.vhd
+Z44 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/multiplier.vhd
+l0
+L4 1
+V6Gz^UQ<`]S3oXC[FTKRn@2
+!s100 UePY[@BRR@=:_DTWWA?gk1
+R6
+32
+Z45 !s110 1701532710
+!i10b 1
+Z46 !s108 1701532710.000000
+Z47 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/multiplier.vhd|
+Z48 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/multiplier.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 10 multiplier 0 22 6Gz^UQ<`]S3oXC[FTKRn@2
+!i122 9
+l14
+L13 6
+V_>:GYgTL2`Bl6A?Y=z9jM3
+!s100 eo25h0U`JYBl]JiIez6bX0
+R6
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Enot_gate
+Z49 w1700851446
+R1
+R2
+!i122 10
+R3
+Z50 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/not_gate.vhd
+Z51 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/not_gate.vhd
+l0
+L4 1
+VOTTiVFYN:oOVCOZ;9A0dT3
+!s100 90HJ^dRL?VVDB2ec6T25[1
+R6
+32
+R45
+!i10b 1
+R46
+Z52 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/not_gate.vhd|
+Z53 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/not_gate.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 8 not_gate 0 22 OTTiVFYN:oOVCOZ;9A0dT3
+!i122 10
+l14
+L12 7
+VKQFoK;]gbd0J1HA4a0k0a3
+!s100 Xb@f7aPMnT>8GGNMz<>UF3
+R6
+32
+R45
+!i10b 1
+R46
+R52
+R53
+!i113 1
+R11
+R12
+Eregister_dq_1
+Z54 w1701535686
+R1
+R2
+!i122 25
+R3
+Z55 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_1.vhd
+Z56 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_1.vhd
+l0
+L4 1
+V3bb]cd7B0>SAEWi5@0_1S1
+!s100 Xn[HAgY[N6Z@:l7hFf0>02
+R6
+32
+Z57 !s110 1701535691
+!i10b 1
+Z58 !s108 1701535691.000000
+Z59 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_1.vhd|
+Z60 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_1.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 13 register_dq_1 0 22 3bb]cd7B0>SAEWi5@0_1S1
+!i122 25
+l13
+Z61 L12 11
+VYG9m^hAi_i;:W5@meFS5`2
+!s100 oSHXc5lAYWSICGm6:_SI61
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R11
+R12
+Eregister_dq_16
+Z62 w1701535651
+R1
+R2
+!i122 22
+R3
+Z63 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_16.vhd
+Z64 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_16.vhd
+l0
+L4 1
+V<Gi7KTU2Yi28KUOc57Jc22
+!s100 bM@zM7;n?DzDh2HC6^h1^0
+R6
+32
+Z65 !s110 1701535661
+!i10b 1
+Z66 !s108 1701535660.000000
+Z67 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_16.vhd|
+Z68 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_16.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 14 register_dq_16 0 22 <Gi7KTU2Yi28KUOc57Jc22
+!i122 22
+l13
+R61
+VZ2XEilSzGgIj95PRlRZhj0
+!s100 DgD:@_U5>^ndfS@A0:1DA0
+R6
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R11
+R12
+Eregister_dq_8
+Z69 w1701535641
+R1
+R2
+!i122 23
+R3
+Z70 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_8.vhd
+Z71 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_8.vhd
+l0
+L4 1
+VRFjaOGbJa]1P[BZbZbmEk3
+!s100 @dL`C22H2dbW8mRJDVeN[1
+R6
+32
+R65
+!i10b 1
+Z72 !s108 1701535661.000000
+Z73 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_8.vhd|
+Z74 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/Simple Units/register_dq_8.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 13 register_dq_8 0 22 RFjaOGbJa]1P[BZbZbmEk3
+!i122 23
+l13
+R61
+VgKkh4h`LP;ed6QC3C`;F]1
+!s100 9YWfXX]1]_`X7cM;67H9Y3
+R6
+32
+R65
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R11
+R12
+Esync_arithmetic_hw
+Z75 w1701546586
+R1
+R2
+!i122 27
+R3
+Z76 8C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/sync_arithmetic_hw.vhd
+Z77 FC:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/sync_arithmetic_hw.vhd
+l0
+L4 1
+V`CU_JzJF[zVf3@mdN[NCF2
+!s100 GU]LfG?8m_>3>A;;^JmU30
+R6
+32
+!s110 1701546614
+!i10b 1
+!s108 1701546614.000000
+Z78 !s90 -reportprogress|300|-work|work|C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/sync_arithmetic_hw.vhd|
+Z79 !s107 C:/Development/GitHub/COEN-6501-Final-Project/Minimum Requirement v2/sync_arithmetic_hw.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 18 sync_arithmetic_hw 0 22 `CU_JzJF[zVf3@mdN[NCF2
+!i122 24
+l56
+L14 111
+V8S5QTf?bio[?6HiUYg`cc0
+!s100 i?1SQHjfRMZXHG_<MW?S30
+R6
+32
+R65
+!i10b 1
+R72
+R78
+R79
+!i113 1
+R11
+R12
