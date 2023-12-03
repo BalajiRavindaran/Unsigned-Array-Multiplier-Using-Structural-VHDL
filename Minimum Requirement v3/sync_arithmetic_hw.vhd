@@ -223,8 +223,10 @@ architecture Behavioral of sync_arithmetic_hw is
     end process;
 
     -- Output Logic
-    P <= (others => '0') when output_strobe = '0' and reset = '1' else
+    P_end <= (others => '0') when output_strobe = '0' and reset = '1' else
          P_reg when output_strobe = '1';
+
+    P <= P_end when output_strobe = '1' else (others => 'Z');
 
     --P <= P_end when output_strobe = '1';
 
