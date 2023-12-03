@@ -20,7 +20,7 @@ architecture Behavioral of sync_arithmetic_hw is
 
     signal A_reg, B_reg, A_in, B_in : std_logic_vector(7 downto 0);
 
-    signal mul_output, divider_output, adder_output, multi_output, divid_output : std_logic_vector(15 downto 0);
+    signal mul_output, divider_output, adder_output, multi_output, divid_output, P_end : std_logic_vector(15 downto 0);
 
     signal P_reg : std_logic_vector(15 downto 0);
 
@@ -83,7 +83,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- State Register
     process(clk, reset)
     begin
-        if reset = '1' then
+        if reset = '0' then
             state_reg <= idle;
         elsif (clk' event and clk ='1')  then
             state_reg <= state_next;
@@ -93,7 +93,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- Register A
     process(clk, reset, load)
     begin
-        if reset = '1' then
+        if reset = '0' then
             A_reg <= (others => '0');
         elsif (clk' event and clk ='1') then
             if load = '1' then
@@ -105,7 +105,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- Register B
     process(clk, reset, load)
     begin
-        if reset = '1' then
+        if reset = '0' then
             B_reg <= (others => '0');
         elsif (clk' event and clk ='1') then
             if load = '1' then
@@ -121,7 +121,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- Multiplier Output Register
     process(clk, reset)
     begin
-        if reset = '1' then
+        if reset = '0' then
             multi_output <= (others => '0');
         elsif (clk' event and clk ='1') then
             multi_output <= mul_output;
@@ -131,7 +131,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- Divider Output Register
     process(clk, reset)
     begin
-        if reset = '1' then
+        if reset = '0' then
             divid_output <= (others => '0');
         elsif (clk' event and clk ='1') then
             divid_output <= divider_output;
@@ -142,7 +142,7 @@ architecture Behavioral of sync_arithmetic_hw is
     -- Register P
     process(clk, reset)
     begin
-        if reset = '1' then
+        if reset = '0' then
             P_reg <= (others => '0');
         elsif (clk' event and clk ='1') then
                 P_reg <= adder_output;
@@ -223,7 +223,10 @@ architecture Behavioral of sync_arithmetic_hw is
     end process;
 
     -- Output Logic
-    P <= P_reg when output_strobe = '1' else (others => 'Z');
+    P <= (others => '0') when output_strobe = '0' and reset = '1' else
+         P_reg when output_strobe = '1';
+
+    --P <= P_end when output_strobe = '1';
 
     end Behavioral;
 
