@@ -1,0 +1,474 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3
+Eahw_test_bench
+Z1 w1701627893
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 46
+R0
+Z7 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd
+Z8 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd
+l0
+L7 1
+VQoY9>_oQl^@K8H84MKNhJ0
+!s100 2dAMZ9B9Q=S:WU7oDB0jL1
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1701627909
+!i10b 1
+Z11 !s108 1701627909.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd|
+Z13 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 ahw_test_bench 0 22 QoY9>_oQl^@K8H84MKNhJ0
+!i122 46
+l26
+L10 31
+V94UBhdh2D=ng>C<;:bV@_2
+!s100 4VV>Q@REON=RUl6R_Kbhd1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Earithmetic_hw
+Z16 w1701560276
+R5
+R6
+!i122 279
+R0
+Z17 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/arithmetic_hw.vhd
+Z18 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/arithmetic_hw.vhd
+l0
+L4 1
+VJJQQ@jPS2<B10CkKUSjL?1
+!s100 mZcSa;48ZekzNLFgZjnL10
+R9
+32
+Z19 !s110 1701633515
+!i10b 1
+Z20 !s108 1701633515.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/arithmetic_hw.vhd|
+Z22 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/arithmetic_hw.vhd|
+!i113 1
+R14
+R15
+Abehavior
+R5
+R6
+DEx4 work 13 arithmetic_hw 0 22 JJQQ@jPS2<B10CkKUSjL?1
+!i122 279
+l39
+L10 35
+V^3PnifSZ]zO54@R5bb9AJ3
+!s100 KUHR?kUQ684UIbG:Sk0zA3
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Earray_multiplier
+Z23 w1701625398
+R5
+R6
+!i122 280
+R0
+Z24 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/array_multiplier_8.vhd
+Z25 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/array_multiplier_8.vhd
+l0
+L4 1
+V]7fWOH>:hPR8KmKAU0Toe3
+!s100 E4>kzBlLnI369DFz>NVB80
+R9
+32
+Z26 !s110 1701633516
+!i10b 1
+Z27 !s108 1701633516.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/array_multiplier_8.vhd|
+Z29 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/array_multiplier_8.vhd|
+!i113 1
+R14
+R15
+Abehavior
+R5
+R6
+DEx4 work 16 array_multiplier 0 22 ]7fWOH>:hPR8KmKAU0Toe3
+!i122 280
+l52
+L15 229
+VjX4;=m8bO:fjKeAj324112
+!s100 AYVQ1VVCQ6X1TD]^h_2132
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R14
+R15
+Edivider_unit
+Z30 w1701625395
+R5
+R6
+!i122 281
+R0
+Z31 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/divider_unit.vhd
+Z32 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/divider_unit.vhd
+l0
+L4 1
+VU5BjVQoABhf1;BAj_DDUQ1
+!s100 Oe>1l`_SEgNVNo3jR8ZRM2
+R9
+32
+R26
+!i10b 1
+R27
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/divider_unit.vhd|
+Z34 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/divider_unit.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 12 divider_unit 0 22 U5BjVQoABhf1;BAj_DDUQ1
+!i122 281
+l16
+L13 9
+VTkHIS60]:]jD>6dVC=Ae[1
+!s100 ;<ml;<<HSl`<95;Q;FAc02
+R9
+32
+R26
+!i10b 1
+R27
+R33
+R34
+!i113 1
+R14
+R15
+Efull_adder
+R16
+R5
+R6
+!i122 282
+R0
+Z35 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder.vhd
+Z36 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder.vhd
+l0
+Z37 L35 1
+V5c5<GdWPj0`3OfzBd?k:N1
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+R9
+32
+R26
+!i10b 1
+R27
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder.vhd|
+Z39 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 full_adder 0 22 5c5<GdWPj0`3OfzBd?k:N1
+!i122 282
+l47
+L46 7
+ViGHXmFXkkoo=kA?QmZm;b0
+!s100 cU`non;`GL?3hc<^LRTbj1
+R9
+32
+R26
+!i10b 1
+R27
+R38
+R39
+!i113 1
+R14
+R15
+Efull_adder_16
+Z40 w1701625393
+R5
+R6
+!i122 283
+R0
+Z41 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder_16.vhd
+Z42 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder_16.vhd
+l0
+L4 1
+V9`Z;G9j_U=SXRAOT`IF@13
+!s100 `J@hZZ4hn@zFlzMnBP;k;0
+R9
+32
+R26
+!i10b 1
+R27
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder_16.vhd|
+Z44 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/full_adder_16.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 13 full_adder_16 0 22 9`Z;G9j_U=SXRAOT`IF@13
+!i122 283
+l31
+L15 38
+VYifJIXGZSBQGgBf@DclM80
+!s100 o_Gb=LZh:n1X@12InIFS>0
+R9
+32
+R26
+!i10b 1
+R27
+R43
+R44
+!i113 1
+R14
+R15
+Ehalf_adder
+R16
+R5
+R6
+!i122 284
+R0
+Z45 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/half_adder.vhd
+Z46 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/half_adder.vhd
+l0
+R37
+VSjPc5@RabGijHhJS55cRZ0
+!s100 LoNB=0eif3:E8=ACN;hiE1
+R9
+32
+Z47 !s110 1701633517
+!i10b 1
+R27
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/half_adder.vhd|
+Z49 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/half_adder.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 half_adder 0 22 SjPc5@RabGijHhJS55cRZ0
+!i122 284
+l46
+L45 7
+VDZ0EASfB7lhddbYfkMG4N2
+!s100 oOaB@bggMkNJmA;Qc>lI=3
+R9
+32
+R47
+!i10b 1
+R27
+R48
+R49
+!i113 1
+R14
+R15
+Emultiplier
+R16
+R5
+R6
+!i122 285
+R0
+Z50 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/multiplier.vhd
+Z51 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/multiplier.vhd
+l0
+L4 1
+VLF4^>2Uk8iP3M<XQoIb<b1
+!s100 UePY[@BRR@=:_DTWWA?gk1
+R9
+32
+R47
+!i10b 1
+Z52 !s108 1701633517.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/multiplier.vhd|
+Z54 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/multiplier.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 multiplier 0 22 LF4^>2Uk8iP3M<XQoIb<b1
+!i122 285
+l14
+L13 6
+VETDoJK6;laG561IdCD;;]0
+!s100 eo25h0U`JYBl]JiIez6bX0
+R9
+32
+R47
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R14
+R15
+Enot_gate
+R16
+R5
+R6
+!i122 286
+R0
+Z55 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/not_gate.vhd
+Z56 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/not_gate.vhd
+l0
+L4 1
+VBgC@U4_J@mVD2JoY30z_>2
+!s100 90HJ^dRL?VVDB2ec6T25[1
+R9
+32
+R47
+!i10b 1
+R52
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/not_gate.vhd|
+Z58 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/not_gate.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 8 not_gate 0 22 BgC@U4_J@mVD2JoY30z_>2
+!i122 286
+l14
+L12 7
+VCm2P6In?lYKFGQaQKdzLW1
+!s100 Xb@f7aPMnT>8GGNMz<>UF3
+R9
+32
+R47
+!i10b 1
+R52
+R57
+R58
+!i113 1
+R14
+R15
+Esimulation_sync_hw
+Z59 w1701627973
+R2
+R3
+R4
+R5
+R6
+!i122 288
+R0
+R7
+R8
+l0
+L7 1
+VT0JNCLZ63T1jocf6K]]IW3
+!s100 L2gl8<JV2:AXNjja[1LR83
+R9
+32
+R47
+!i10b 1
+R52
+R12
+R13
+!i113 1
+R14
+R15
+Abehavior
+R2
+R3
+R4
+R5
+R6
+Z60 DEx4 work 18 simulation_sync_hw 0 22 T0JNCLZ63T1jocf6K]]IW3
+!i122 288
+l27
+Z61 L10 32
+Z62 V6X:`l>Wgn7XYY9III:GC<2
+Z63 !s100 0Q5ln44neQ1[FkM7o<ZKL1
+R9
+32
+R47
+!i10b 1
+R52
+R12
+R13
+!i113 1
+R14
+R15
+Esync_arithmetic_hw
+Z64 w1701633512
+R5
+R6
+!i122 287
+R0
+Z65 8F:\Development\Projects\COEN-6501-Final-Project\Minimum Requirement v3\sync_arithmetic_hw.vhd
+Z66 FF:\Development\Projects\COEN-6501-Final-Project\Minimum Requirement v3\sync_arithmetic_hw.vhd
+l0
+L4 1
+VeZ9Ek``>DKeOjjXm3jJl?1
+!s100 GU]LfG?8m_>3>A;;^JmU30
+R9
+32
+R47
+!i10b 1
+R52
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Development\Projects\COEN-6501-Final-Project\Minimum Requirement v3\sync_arithmetic_hw.vhd|
+Z68 !s107 F:\Development\Projects\COEN-6501-Final-Project\Minimum Requirement v3\sync_arithmetic_hw.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 18 sync_arithmetic_hw 0 22 eZ9Ek``>DKeOjjXm3jJl?1
+!i122 287
+l58
+L14 215
+VT>Li]9fchzYX@?`zI@:>53
+!s100 Pb>LjFNYA[0g0Kkiz6EM81
+R9
+32
+R47
+!i10b 1
+R52
+R67
+R68
+!i113 1
+R14
+R15
