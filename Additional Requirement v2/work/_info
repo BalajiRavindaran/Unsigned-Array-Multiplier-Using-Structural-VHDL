@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3
+Efull_adder
+Z0 w1701560276
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z3 dF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2
+Z4 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
+Z5 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
+l0
+L35 1
+V5c5<GdWPj0`3OfzBd?k:N1
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1701640276
+!i10b 1
+Z8 !s108 1701640276.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
+Z10 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 10 full_adder 0 22 5c5<GdWPj0`3OfzBd?k:N1
+!i122 1
+l47
+L46 7
+ViGHXmFXkkoo=kA?QmZm;b0
+!s100 cU`non;`GL?3hc<^LRTbj1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Egeneric_array_multiplier
+Z13 w1701641063
+R1
+R2
+!i122 2
+R3
+Z14 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
+Z15 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
+l0
+L4 1
+VgmN=F[?=f`N@_<i]PW<HA1
+!s100 Q`TCBjlLgXG?6zBUjzXBe2
+R6
+32
+Z16 !s110 1701641070
+!i10b 1
+Z17 !s108 1701641070.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
+Z19 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
+!i113 1
+R11
+R12
+Astructural_generic
+R1
+R2
+DEx4 work 24 generic_array_multiplier 0 22 gmN=F[?=f`N@_<i]PW<HA1
+!i122 2
+l30
+Z20 L11 59
+Z21 VTCBb=dKS`6lZ5V3a=5z5E2
+Z22 !s100 HoXVlEX:R^ldkFFehAkaa1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
