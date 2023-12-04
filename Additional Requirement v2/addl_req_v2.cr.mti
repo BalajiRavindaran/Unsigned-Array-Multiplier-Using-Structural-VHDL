@@ -1,4 +1,12 @@
-{F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd}
+{F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity generic_array_multiplier
+-- Compiling architecture structural_generic of generic_array_multiplier
+
+} {} {}} {F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
