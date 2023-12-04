@@ -5,7 +5,7 @@ entity generic_adder is
     generic (N: INTEGER:= 8;  K: INTEGER:= 32);
     port (
     A, B: in std_logic_vector(2*N-1 downto 0);
-    P: out std_logic_vector(31 downto 0)
+    P: out std_logic_vector(2*N-1 downto 0)
     );
 end generic_adder;
 
@@ -79,5 +79,6 @@ architecture beh_arch of generic_adder is
         f31: full_adder port map (Cin=>carry31, A=>modified_a(31), B=>modified_b(31), S=>sum(31), Cout=>carry32);
 
 
-        P <= sum;
+        P <= sum(2*N-1 downto 0);
+
 end beh_arch;
