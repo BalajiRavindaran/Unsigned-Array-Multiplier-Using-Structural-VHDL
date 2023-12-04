@@ -1,0 +1,384 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3
+Edata_analyzer
+Z0 w1701709638
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 240
+Z5 dF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit
+Z6 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/data_analyzer.vhd
+Z7 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/data_analyzer.vhd
+l0
+L6 1
+V]BjH8hnklmWcL=ze]e0H`0
+!s100 CTEB>TJkOR]@[08UP>8A21
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1701720680
+!i10b 1
+Z10 !s108 1701720680.000000
+Z11 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/data_analyzer.vhd|
+Z12 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/data_analyzer.vhd|
+!i113 1
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 13 data_analyzer 0 22 ]BjH8hnklmWcL=ze]e0H`0
+!i122 240
+l28
+L19 20
+V@=LSeZ4?;67mSOFH]3LPQ1
+!s100 d0T53<C^An7n2cLl[5FmU0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edivider
+w1701657878
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+R3
+R4
+!i122 73
+Z16 dF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2
+8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd
+FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd
+l0
+L7 1
+VmM=oVYBgjR:@<0:_Vgg9i3
+!s100 SIYOeD=<i9=nd7]Qjh_>j3
+R8
+32
+!s110 1701657882
+!i10b 1
+!s108 1701657882.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd|
+!s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+R14
+Edivider_2c
+Z18 w1701715653
+R15
+R1
+R2
+R3
+R4
+!i122 241
+R5
+Z19 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/divider_2c.vhd
+Z20 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/divider_2c.vhd
+l0
+L7 1
+V:Mz^8nU]XXOYoGY;36WFR1
+!s100 ckH>M_C2Q_PY;O9D`aB`:3
+R8
+32
+R9
+!i10b 1
+R10
+Z21 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/divider_2c.vhd|
+Z22 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/divider_2c.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R15
+R1
+R2
+R3
+R4
+DEx4 work 10 divider_2c 0 22 :Mz^8nU]XXOYoGY;36WFR1
+!i122 241
+l47
+L21 117
+VX@f<nd_mMdgMUnL>@ZVOM1
+!s100 5a_KT=Uc1dj8]Z9T`fFCe2
+R8
+32
+R9
+!i10b 1
+R10
+R21
+R22
+!i113 1
+R13
+R14
+Efull_adder
+Z23 w1701560276
+R3
+R4
+!i122 242
+R5
+Z24 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/full_adder.vhd
+Z25 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/full_adder.vhd
+l0
+L35 1
+Vzd1N<KU3F_>NH^IS>z7?63
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+R8
+32
+R9
+!i10b 1
+R10
+Z26 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/full_adder.vhd|
+Z27 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/full_adder.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+DEx4 work 10 full_adder 0 22 zd1N<KU3F_>NH^IS>z7?63
+!i122 242
+l47
+L46 7
+V^S<:SC:9lNCXXJiNZWDUd2
+!s100 cU`non;`GL?3hc<^LRTbj1
+R8
+32
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Egeneric_adder
+Z28 w1701719137
+R3
+R4
+!i122 239
+R5
+Z29 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/adder_d.vhd
+Z30 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/adder_d.vhd
+l0
+L4 1
+VH?2NfT__[]MS^]1UbCdD31
+!s100 ?@II5UiZ?^h6T8Ki5ZA]B2
+R8
+32
+R9
+!i10b 1
+R10
+Z31 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/adder_d.vhd|
+Z32 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/adder_d.vhd|
+!i113 1
+R13
+R14
+Abeh_arch
+R3
+R4
+DEx4 work 13 generic_adder 0 22 H?2NfT__[]MS^]1UbCdD31
+!i122 239
+l44
+L14 78
+V2z6a9e2SLLgz;BLM@W[K73
+!s100 lWX_aIYDB7Hf1XVA;YBZR0
+R8
+32
+R9
+!i10b 1
+R10
+R31
+R32
+!i113 1
+R13
+R14
+Egeneric_array_multiplier
+Z33 w1701716335
+R3
+R4
+!i122 243
+R5
+Z34 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd
+Z35 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd
+l0
+L4 1
+VaEXlfgg>YihVn6A^LYMAM3
+!s100 7AE[;QJOGm`5=7GZT^jof1
+R8
+32
+R9
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd|
+Z37 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd|
+!i113 1
+R13
+R14
+Astructural_generic
+R3
+R4
+DEx4 work 24 generic_array_multiplier 0 22 aEXlfgg>YihVn6A^LYMAM3
+!i122 243
+l34
+L13 64
+V7`Yb=9`VTEY0SDjcQeH1A2
+!s100 lgH@`9DTY[H@aa>fU0]^L3
+R8
+32
+R9
+!i10b 1
+R10
+R36
+R37
+!i113 1
+R13
+R14
+Egenericadder
+Z38 w1701671912
+R1
+R2
+R3
+R4
+!i122 167
+R16
+Z39 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/adder_d.vhd
+Z40 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/adder_d.vhd
+l0
+L6 1
+VGYRL;GT3AlP5lICEXBlZH1
+!s100 ]2=jh]2W5YKoT`9lV>9@W0
+R8
+32
+!s110 1701705473
+!i10b 1
+!s108 1701705473.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/adder_d.vhd|
+Z42 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/adder_d.vhd|
+!i113 1
+R17
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 12 genericadder 0 22 5m=c7lz[i[FkhM=l<]F_k2
+!i122 136
+l31
+L16 30
+Vh[fT:URUJA5fU8J0_e=I<3
+!s100 jV<0A=V8b`fjH6R=MZ8?82
+R8
+32
+!s110 1701671159
+!i10b 1
+!s108 1701671158.000000
+R41
+R42
+!i113 1
+R17
+R14
+Esimulation_sync_hw
+Z43 w1701720585
+R15
+R1
+R2
+R3
+R4
+!i122 244
+R5
+Z44 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/simulation_sync_hw.vhd
+Z45 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/simulation_sync_hw.vhd
+l0
+L7 1
+Vl;YYCJznJ<G>87MhnBzEL1
+!s100 L2gl8<JV2:AXNjja[1LR83
+R8
+32
+Z46 !s110 1701720681
+!i10b 1
+R10
+Z47 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/simulation_sync_hw.vhd|
+Z48 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/simulation_sync_hw.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R15
+R1
+R2
+R3
+R4
+DEx4 work 18 simulation_sync_hw 0 22 l;YYCJznJ<G>87MhnBzEL1
+!i122 244
+l34
+L10 39
+VmMebi^>V>W>_Lc66EWz;I2
+!s100 1<IGLP=MW9iP_7gWok@SO1
+R8
+32
+R46
+!i10b 1
+R10
+R47
+R48
+!i113 1
+R13
+R14
+Esync_arithmetic_hw_ar
+Z49 w1701720675
+R3
+R4
+!i122 245
+R5
+Z50 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
+Z51 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
+l0
+L4 1
+VSZX`;F`GnK0QjISNfc7;h2
+!s100 mB:AYTNEIFRP?lge9<3m00
+R8
+32
+R46
+!i10b 1
+Z52 !s108 1701720681.000000
+Z53 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
+Z54 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R3
+R4
+Z55 DEx4 work 21 sync_arithmetic_hw_ar 0 22 SZX`;F`GnK0QjISNfc7;h2
+!i122 245
+l80
+Z56 L19 282
+VGMC1Uk@L0hKOR^ZJ22ck72
+!s100 Xj;zZCPeZI[8<D[]MgPSl0
+R8
+32
+R46
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R13
+R14
