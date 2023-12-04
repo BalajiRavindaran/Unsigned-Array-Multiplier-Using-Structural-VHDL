@@ -9,85 +9,157 @@ z2
 !i10f 100
 cModel Technology
 dF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3
-Efull_adder
-Z0 w1701560276
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 1
-Z3 dF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2
-Z4 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
-Z5 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
+Edivider
+w1701657878
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 73
+Z5 dF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2
+Z6 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd
+Z7 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd
 l0
-L35 1
-V5c5<GdWPj0`3OfzBd?k:N1
-!s100 YbGE=ggzTaah5Ye0mWS;S0
-Z6 OV;C;2020.1;71
+L7 1
+VmM=oVYBgjR:@<0:_Vgg9i3
+!s100 SIYOeD=<i9=nd7]Qjh_>j3
+Z8 OV;C;2020.1;71
 32
-Z7 !s110 1701640276
+!s110 1701657882
 !i10b 1
-Z8 !s108 1701640276.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
-Z10 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
+!s108 1701657882.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd|
+Z10 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/divider_2c.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
-Abehavioral
+Edivider_2c
+Z13 w1701667154
+R0
 R1
 R2
-DEx4 work 10 full_adder 0 22 5c5<GdWPj0`3OfzBd?k:N1
-!i122 1
-l47
-L46 7
-ViGHXmFXkkoo=kA?QmZm;b0
-!s100 cU`non;`GL?3hc<^LRTbj1
+R3
+R4
+!i122 127
+R5
 R6
-32
 R7
-!i10b 1
+l0
+L7 1
+VggVhjB<jNXh08Vba130:E3
+!s100 C9:O6M0=d<8WZ[U9SM_@Z1
 R8
+32
+Z14 !s110 1701667159
+!i10b 1
+Z15 !s108 1701667158.000000
 R9
 R10
 !i113 1
 R11
 R12
-Egeneric_array_multiplier
-Z13 w1701641063
+Abehavioral
+R0
 R1
 R2
-!i122 2
 R3
-Z14 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
-Z15 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
+R4
+DEx4 work 10 divider_2c 0 22 ggVhjB<jNXh08Vba130:E3
+!i122 127
+l39
+Z16 L19 69
+Z17 VeiWAXNfiebPTo5fjlkSk_0
+Z18 !s100 d`?3ENSe2d>1jhUI_W@cP1
+R8
+32
+R14
+!i10b 1
+R15
+R9
+R10
+!i113 1
+R11
+R12
+Efull_adder
+Z19 w1701560276
+R3
+R4
+!i122 123
+R5
+Z20 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
+Z21 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd
+l0
+L35 1
+V5c5<GdWPj0`3OfzBd?k:N1
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+R8
+32
+Z22 !s110 1701667109
+!i10b 1
+Z23 !s108 1701667109.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
+Z25 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/full_adder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R3
+R4
+DEx4 work 10 full_adder 0 22 5c5<GdWPj0`3OfzBd?k:N1
+!i122 123
+l47
+L46 7
+ViGHXmFXkkoo=kA?QmZm;b0
+!s100 cU`non;`GL?3hc<^LRTbj1
+R8
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Egeneric_array_multiplier
+Z26 w1701641063
+R3
+R4
+!i122 122
+R5
+Z27 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
+Z28 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd
 l0
 L4 1
 VgmN=F[?=f`N@_<i]PW<HA1
 !s100 Q`TCBjlLgXG?6zBUjzXBe2
-R6
+R8
 32
-Z16 !s110 1701641070
+R22
 !i10b 1
-Z17 !s108 1701641070.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
-Z19 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
+R23
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
+Z30 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v2/generic_array_baugh.vhd|
 !i113 1
 R11
 R12
 Astructural_generic
-R1
-R2
+R3
+R4
 DEx4 work 24 generic_array_multiplier 0 22 gmN=F[?=f`N@_<i]PW<HA1
-!i122 2
+!i122 122
 l30
-Z20 L11 59
-Z21 VTCBb=dKS`6lZ5V3a=5z5E2
-Z22 !s100 HoXVlEX:R^ldkFFehAkaa1
-R6
+L11 59
+VTCBb=dKS`6lZ5V3a=5z5E2
+!s100 HoXVlEX:R^ldkFFehAkaa1
+R8
 32
-R16
+R22
 !i10b 1
-R17
-R18
-R19
+R23
+R29
+R30
 !i113 1
 R11
 R12
