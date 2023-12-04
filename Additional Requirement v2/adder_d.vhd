@@ -1,28 +1,41 @@
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.STD_LOGIC_1164.ALL; 
 
 entity generic_adder is
-    generic (N: INTEGER:= 8);
+    generic (N: INTEGER:= 8;  K: INTEGER:= 32);
     port (
-    A, B: in std_logic_vector(N-1 downto 0);
-    P: out std_logic_vector(N-1 downto 0)
+    A, B: in std_logic_vector(2*N-1 downto 0);
+    P: out std_logic_vector(31 downto 0)
     );
 end generic_adder;
 
+architecture beh_arch of generic_adder is
     component full_adder is
         port(
             A : in std_logic;
             B : in std_logic;
             Cin : in std_logic;
+    
             S : out std_logic;
             Cout : out std_logic
         );
-    end component;
+ 	end component;
 
-    signal carry: std_logic;
-    signal sum: std_logic_vector(N-1 downto 0);
+    signal carry1, carry2, carry3, carry4, carry5, carry6, carry7, carry8, carry9, carry10: std_logic;
+    signal carry11, carry12, carry13, carry14, carry15, carry16, carry17, carry18, carry19, carry20: std_logic;
+    signal carry21, carry22, carry23, carry24, carry25, carry26, carry27, carry28, carry29, carry30: std_logic;
+    signal carry31, carry32: std_logic;
+    signal sum: std_logic_vector(31 downto 0);
+
+    signal just_A : std_logic_vector(2*N-1 downto 0);
+    signal just_B : std_logic_vector(2*N-1 downto 0);
+
+    signal remaining_bits : std_logic_vector ((K-(2*N-1))-2 downto 0); -- Output product
+
+    --signal modified_c : std_logic_vector (31 downto 0); -- Input shift amount
+
+    signal modified_a : std_logic_vector (31 downto 0); -- Input shift amount
+    signal modified_b : std_logic_vector (31 downto 0); -- Input shift amount
 
     begin
         remaining_bits <= (others => '0');
