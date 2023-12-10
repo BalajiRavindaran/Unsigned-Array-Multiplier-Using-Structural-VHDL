@@ -65,9 +65,9 @@ set_global_assignment -name CYCLONEII_OPTIMIZATION_TECHNIQUE AREA
 set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
 set_global_assignment -name SMART_RECOMPILE OFF
 set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
-set_global_assignment -name VHDL_FILE "../Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd"
-set_global_assignment -name VHDL_FILE "../Additional Requirement v3 8-bit/generic_array_baugh.vhd"
 set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/wallace_tree_multiplier.vhd"
+set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/sync_arithmetic_hw.vhd"
+set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/simulation_sync_hw.vhd"
 set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/not_gate.vhd"
 set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/multiplier.vhd"
 set_global_assignment -name VHDL_FILE "C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/half_adder.vhd"

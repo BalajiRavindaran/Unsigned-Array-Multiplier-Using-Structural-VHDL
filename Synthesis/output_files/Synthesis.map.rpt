@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Synthesis
-Sat Dec  9 19:41:35 2023
+Sun Dec 10 18:20:32 2023
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -14,26 +14,9 @@ Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Top-level Entity: |Synthesis
- 10. Port Connectivity Checks: "full_adder:\horizontal_stack_last:7:flj"
- 11. Port Connectivity Checks: "full_adder:\horizontal_stack_last:0:flj"
- 12. Port Connectivity Checks: "full_adder:\horizontal_stack:7:vertical_stack:7:signed_independent:fij"
- 13. Port Connectivity Checks: "full_adder:\horizontal_stack:6:vertical_stack:7:signed_dependent:fij"
- 14. Port Connectivity Checks: "full_adder:\horizontal_stack:5:vertical_stack:7:signed_dependent:fij"
- 15. Port Connectivity Checks: "full_adder:\horizontal_stack:4:vertical_stack:7:signed_dependent:fij"
- 16. Port Connectivity Checks: "full_adder:\horizontal_stack:3:vertical_stack:7:signed_dependent:fij"
- 17. Port Connectivity Checks: "full_adder:\horizontal_stack:2:vertical_stack:7:signed_dependent:fij"
- 18. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:7:signed_dependent:fij"
- 19. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:6:signed_independent:fij"
- 20. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:5:signed_independent:fij"
- 21. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:4:signed_independent:fij"
- 22. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:3:signed_independent:fij"
- 23. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:2:signed_independent:fij"
- 24. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:1:signed_independent:fij"
- 25. Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:0:signed_independent:fij"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -60,16 +43,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Dec  9 19:41:35 2023          ;
+; Analysis & Synthesis Status        ; Successful - Sun Dec 10 18:20:32 2023          ;
 ; Quartus Prime Version              ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                      ; Synthesis                                      ;
 ; Top-level Entity Name              ; synthesis                                      ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; 185                                            ;
-;     Total combinational functions  ; 185                                            ;
+; Total logic elements               ; 14                                             ;
+;     Total combinational functions  ; 14                                             ;
 ;     Dedicated logic registers      ; 0                                              ;
 ; Total registers                    ; 0                                              ;
-; Total pins                         ; 34                                             ;
+; Total pins                         ; 33                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0                                              ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
@@ -181,118 +164,54 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                 ;
-+--------------------------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                   ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                        ; Library ;
-+--------------------------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
-; ../Additional Requirement v3 8-bit/generic_array_baugh.vhd         ; yes             ; User VHDL File  ; E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd ;         ;
-; C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/full_adder.vhd ; yes             ; User VHDL File  ; C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/full_adder.vhd                                  ;         ;
-+--------------------------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                    ;
++----------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                     ; Used in Netlist ; File Type       ; File Name with Absolute Path                                         ; Library ;
++----------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
+; C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd ; yes             ; User VHDL File  ; C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd ;         ;
++----------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimated Total logic elements              ; 185        ;
-;                                             ;            ;
-; Total combinational functions               ; 185        ;
-; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 120        ;
-;     -- 3 input functions                    ; 18         ;
-;     -- <=2 input functions                  ; 47         ;
-;                                             ;            ;
-; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 185        ;
-;     -- arithmetic mode                      ; 0          ;
-;                                             ;            ;
-; Total registers                             ; 0          ;
-;     -- Dedicated logic registers            ; 0          ;
-;     -- I/O registers                        ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 34         ;
-;                                             ;            ;
-; Embedded Multiplier 9-bit elements          ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; mode~input ;
-; Maximum fan-out                             ; 21         ;
-; Total fan-out                               ; 694        ;
-; Average fan-out                             ; 2.74       ;
-+---------------------------------------------+------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 14          ;
+;                                             ;             ;
+; Total combinational functions               ; 14          ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 0           ;
+;     -- 3 input functions                    ; 0           ;
+;     -- <=2 input functions                  ; 14          ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 14          ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 0           ;
+;     -- Dedicated logic registers            ; 0           ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 33          ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; start~input ;
+; Maximum fan-out                             ; 14          ;
+; Total fan-out                               ; 75          ;
+; Average fan-out                             ; 0.94        ;
++---------------------------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                               ;
-+-----------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node                                                  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                               ; Entity Name ; Library Name ;
-+-----------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------+-------------+--------------+
-; |synthesis                                                                  ; 185 (57)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 34   ; 0            ; 0          ; |synthesis                                                                        ; synthesis   ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:1:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:2:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:3:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:4:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:5:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:6:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:1:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:1:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:1:signed_independent:fij| ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:2:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:3:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:4:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:5:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:6:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:2:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:2:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:1:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:2:signed_independent:fij| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:3:signed_independent:fij| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:4:signed_independent:fij| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:5:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:6:signed_independent:fij| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:3:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:3:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:1:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:2:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:3:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:4:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:5:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:6:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:4:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:4:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:1:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:2:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:3:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:4:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:5:signed_independent:fij| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:6:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:5:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:5:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:0:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:0:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:1:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:1:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:2:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:2:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:3:signed_independent:fij| ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:3:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:4:signed_independent:fij| ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:4:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:5:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:5:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:6:signed_independent:fij| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:6:signed_independent:fij ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:6:vertical_stack:7:signed_dependent:fij|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:6:vertical_stack:7:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:0:signed_dependent:fij|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:0:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:1:signed_dependent:fij|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:1:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:2:signed_dependent:fij|   ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:2:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:3:signed_dependent:fij|   ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:3:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:4:signed_dependent:fij|   ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:4:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:5:signed_dependent:fij|   ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:5:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack:7:vertical_stack:6:signed_dependent:fij|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack:7:vertical_stack:6:signed_dependent:fij   ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:0:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:0:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:1:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:1:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:2:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:2:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:3:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:3:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:4:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:4:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:5:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:5:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:6:flj|                                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:6:flj                                ; full_adder  ; work         ;
-;    |full_adder:\horizontal_stack_last:7:flj|                                ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |synthesis|full_adder:\horizontal_stack_last:7:flj                                ; full_adder  ; work         ;
-+-----------------------------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; |synthesis                 ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 33   ; 0            ; 0          ; |synthesis          ; synthesis   ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -311,183 +230,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |Synthesis ;
-+----------------+-------+--------------------------------------------------+
-; Parameter Name ; Value ; Type                                             ;
-+----------------+-------+--------------------------------------------------+
-; N              ; 8     ; Signed Integer                                   ;
-+----------------+-------+--------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack_last:7:flj"                                            ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack_last:0:flj" ;
-+------+-------+----------+-------------------------------------------+
-; Port ; Type  ; Severity ; Details                                   ;
-+------+-------+----------+-------------------------------------------+
-; b    ; Input ; Info     ; Stuck at GND                              ;
-+------+-------+----------+-------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:7:vertical_stack:7:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:6:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:5:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:4:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:3:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:2:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:7:signed_dependent:fij" ;
-+------+-------+----------+------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                ;
-+------+-------+----------+------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                           ;
-; cin  ; Input ; Info     ; Stuck at GND                                                           ;
-+------+-------+----------+------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:6:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:5:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:4:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:3:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:2:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:1:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "full_adder:\horizontal_stack:0:vertical_stack:0:signed_independent:fij" ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                  ;
-+------+-------+----------+--------------------------------------------------------------------------+
-; a    ; Input ; Info     ; Stuck at GND                                                             ;
-; cin  ; Input ; Info     ; Stuck at GND                                                             ;
-+------+-------+----------+--------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 34                          ;
-; cycloneiii_io_obuf    ; 16                          ;
-; cycloneiii_lcell_comb ; 185                         ;
-;     normal            ; 185                         ;
-;         2 data inputs ; 47                          ;
-;         3 data inputs ; 18                          ;
-;         4 data inputs ; 120                         ;
+; boundary_port         ; 33                          ;
+; cycloneiii_lcell_comb ; 15                          ;
+;     normal            ; 15                          ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 14                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 15.00                       ;
-; Average LUT depth     ; 10.99                       ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 0.97                        ;
 +-----------------------+-----------------------------+
 
 
@@ -506,19 +261,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Sat Dec  9 19:41:24 2023
+    Info: Processing started: Sun Dec 10 18:20:22 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Synthesis -c Synthesis
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /applied hands-on/coen 6501 final project/additional requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
-    Info (12022): Found design unit 1: sync_arithmetic_hw_ar-Behavioral File: E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd Line: 19
-    Info (12023): Found entity 1: sync_arithmetic_hw_ar File: E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /applied hands-on/coen 6501 final project/additional requirement v3 8-bit/generic_array_baugh.vhd
-    Info (12022): Found design unit 1: synthesis-structural_generic File: E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd Line: 13
-    Info (12023): Found entity 1: synthesis File: E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/wallace_tree_multiplier.vhd
     Info (12022): Found design unit 1: wallace_tree_multiplier-behavior File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/wallace_tree_multiplier.vhd Line: 15
     Info (12023): Found entity 1: wallace_tree_multiplier File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/wallace_tree_multiplier.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/sync_arithmetic_hw.vhd
+    Info (12022): Found design unit 1: sync_ah-Behavioral File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/sync_arithmetic_hw.vhd Line: 14
+    Info (12023): Found entity 1: sync_ah File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/sync_arithmetic_hw.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/simulation_sync_hw.vhd
+    Info (12022): Found design unit 1: simulation_sync_hw-behavior File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/simulation_sync_hw.vhd Line: 10
+    Info (12023): Found entity 1: simulation_sync_hw File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/simulation_sync_hw.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/not_gate.vhd
     Info (12022): Found design unit 1: not_gate-behavioral File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/not_gate.vhd Line: 12
     Info (12023): Found entity 1: not_gate File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/not_gate.vhd Line: 4
@@ -535,25 +290,30 @@ Info (12021): Found 2 design units, including 1 entities, in source file c:/user
     Info (12022): Found design unit 1: full_adder-behavioral File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/full_adder.vhd Line: 28
     Info (12023): Found entity 1: full_adder File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/full_adder.vhd Line: 17
 Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/divider_unit.vhd
-    Info (12022): Found design unit 1: divider_unit-behavioral File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 26
-    Info (12023): Found entity 1: divider_unit File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 17
+    Info (12022): Found design unit 1: synthesis-behavioral File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 26
+    Info (12023): Found entity 1: synthesis File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 17
 Info (12021): Found 2 design units, including 1 entities, in source file c:/users/balaj/onedrive/desktop/minimal requirement/array_multiplier_8.vhd
     Info (12022): Found design unit 1: array_multiplier-behavior File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/array_multiplier_8.vhd Line: 28
     Info (12023): Found entity 1: array_multiplier File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/array_multiplier_8.vhd Line: 17
 Info (12127): Elaborating entity "Synthesis" for the top level hierarchy
-Info (12128): Elaborating entity "full_adder" for hierarchy "full_adder:\horizontal_stack:0:vertical_stack:0:signed_independent:fij" File: E:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit/generic_array_baugh.vhd Line: 41
 Info (17026): Resynthesizing 0 WYSIWYG logic cells and I/Os using "area" technology mapper which leaves 0 WYSIWYG logic cells and I/Os untouched
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "D[14]" is stuck at GND File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 22
+    Warning (13410): Pin "D[15]" is stuck at GND File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 22
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 219 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 18 input pins
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "A[0]" File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 19
+    Warning (15610): No output dependent on input pin "A[1]" File: C:/Users/balaj/OneDrive/Desktop/Minimal Requirement/divider_unit.vhd Line: 19
+Info (21057): Implemented 47 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 185 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info (21061): Implemented 14 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 4803 megabytes
-    Info: Processing ended: Sat Dec  9 19:41:35 2023
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Processing ended: Sun Dec 10 18:20:32 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:22
 
 
