@@ -1,0 +1,9 @@
+
+State Machine - |synthesis|state_reg
+Name state_reg.output_state state_reg.add state_reg.divide state_reg.multiply state_reg.load_state state_reg.idle 
+state_reg.idle 0 0 0 0 0 0 
+state_reg.load_state 0 0 0 0 1 1 
+state_reg.multiply 0 0 0 1 0 1 
+state_reg.divide 0 0 1 0 0 1 
+state_reg.add 0 1 0 0 0 1 
+state_reg.output_state 1 0 0 0 0 1 
