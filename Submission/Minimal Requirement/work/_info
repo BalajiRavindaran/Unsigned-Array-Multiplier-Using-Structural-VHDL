@@ -1,0 +1,515 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3
+Eahw_test_bench
+Z1 w1701627893
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 46
+R0
+Z7 8F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd
+Z8 FF:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd
+l0
+L7 1
+VQoY9>_oQl^@K8H84MKNhJ0
+!s100 2dAMZ9B9Q=S:WU7oDB0jL1
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1701627909
+!i10b 1
+Z11 !s108 1701627909.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd|
+Z13 !s107 F:/Development/Projects/COEN-6501-Final-Project/Minimum Requirement v3/simulation_sync_hw.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 ahw_test_bench 0 22 QoY9>_oQl^@K8H84MKNhJ0
+!i122 46
+l26
+L10 31
+V94UBhdh2D=ng>C<;:bV@_2
+!s100 4VV>Q@REON=RUl6R_Kbhd1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Earithmetic_hw
+Z16 w1701724818
+R5
+R6
+!i122 429
+Z17 dC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3
+Z18 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/arithmetic_hw.vhd
+Z19 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/arithmetic_hw.vhd
+l0
+L4 1
+ViS8mBd_^=Lk94:]De5_G_1
+!s100 mZcSa;48ZekzNLFgZjnL10
+R9
+32
+Z20 !s110 1701725587
+!i10b 1
+Z21 !s108 1701725587.000000
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/arithmetic_hw.vhd|
+Z23 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/arithmetic_hw.vhd|
+!i113 1
+Z24 o-work work
+R15
+Abehavior
+R5
+R6
+DEx4 work 13 arithmetic_hw 0 22 iS8mBd_^=Lk94:]De5_G_1
+!i122 429
+l39
+L10 35
+VTl>;cXYFLRIQP_8k?L`No0
+!s100 KUHR?kUQ684UIbG:Sk0zA3
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R24
+R15
+Earray_multiplier
+R16
+R5
+R6
+!i122 430
+R17
+Z25 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/array_multiplier_8.vhd
+Z26 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/array_multiplier_8.vhd
+l0
+L4 1
+Ve7bSK4AzhVUM?HQNh98JJ0
+!s100 E4>kzBlLnI369DFz>NVB80
+R9
+32
+R20
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/array_multiplier_8.vhd|
+Z28 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/array_multiplier_8.vhd|
+!i113 1
+R24
+R15
+Abehavior
+R5
+R6
+DEx4 work 16 array_multiplier 0 22 e7bSK4AzhVUM?HQNh98JJ0
+!i122 430
+l52
+L15 229
+Vh2mGEbPRGf3U=@4UM5Oe]3
+!s100 AYVQ1VVCQ6X1TD]^h_2132
+R9
+32
+R20
+!i10b 1
+R21
+R27
+R28
+!i113 1
+R24
+R15
+Edivider_unit
+R16
+R5
+R6
+!i122 431
+R17
+Z29 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/divider_unit.vhd
+Z30 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/divider_unit.vhd
+l0
+L4 1
+VllnMBIj]iJ[b7:1C2Je660
+!s100 Oe>1l`_SEgNVNo3jR8ZRM2
+R9
+32
+R20
+!i10b 1
+R21
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/divider_unit.vhd|
+Z32 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/divider_unit.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 12 divider_unit 0 22 llnMBIj]iJ[b7:1C2Je660
+!i122 431
+l16
+L13 9
+V89mJ@<2JEeJ1eVl1^HYIK3
+!s100 ;<ml;<<HSl`<95;Q;FAc02
+R9
+32
+R20
+!i10b 1
+R21
+R31
+R32
+!i113 1
+R24
+R15
+Efull_adder
+R16
+R5
+R6
+!i122 432
+R17
+Z33 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder.vhd
+Z34 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder.vhd
+l0
+Z35 L35 1
+Vzd1N<KU3F_>NH^IS>z7?63
+!s100 YbGE=ggzTaah5Ye0mWS;S0
+R9
+32
+Z36 !s110 1701725588
+!i10b 1
+R21
+Z37 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder.vhd|
+Z38 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 full_adder 0 22 zd1N<KU3F_>NH^IS>z7?63
+!i122 432
+l47
+L46 7
+V^S<:SC:9lNCXXJiNZWDUd2
+!s100 cU`non;`GL?3hc<^LRTbj1
+R9
+32
+R36
+!i10b 1
+R21
+R37
+R38
+!i113 1
+R24
+R15
+Efull_adder_16
+R16
+R5
+R6
+!i122 433
+R17
+Z39 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder_16.vhd
+Z40 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder_16.vhd
+l0
+L4 1
+VfVi6YEF?1z49kRVD:jZH52
+!s100 `J@hZZ4hn@zFlzMnBP;k;0
+R9
+32
+R36
+!i10b 1
+Z41 !s108 1701725588.000000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder_16.vhd|
+Z43 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/full_adder_16.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 13 full_adder_16 0 22 fVi6YEF?1z49kRVD:jZH52
+!i122 433
+l31
+L15 38
+VGH>GPH_Z@A;C[L<@WHgAk3
+!s100 o_Gb=LZh:n1X@12InIFS>0
+R9
+32
+R36
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R24
+R15
+Ehalf_adder
+R16
+R5
+R6
+!i122 434
+R17
+Z44 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/half_adder.vhd
+Z45 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/half_adder.vhd
+l0
+R35
+V3[m[OjND9kb]RbXYP9U`]0
+!s100 LoNB=0eif3:E8=ACN;hiE1
+R9
+32
+R36
+!i10b 1
+R41
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/half_adder.vhd|
+Z47 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/half_adder.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 half_adder 0 22 3[m[OjND9kb]RbXYP9U`]0
+!i122 434
+l46
+L45 7
+VIB<6oMcCc4>O6lcZ9cSGN1
+!s100 oOaB@bggMkNJmA;Qc>lI=3
+R9
+32
+R36
+!i10b 1
+R41
+R46
+R47
+!i113 1
+R24
+R15
+Emultiplier
+R16
+R5
+R6
+!i122 435
+R17
+Z48 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/multiplier.vhd
+Z49 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/multiplier.vhd
+l0
+L4 1
+V6Gz^UQ<`]S3oXC[FTKRn@2
+!s100 UePY[@BRR@=:_DTWWA?gk1
+R9
+32
+R36
+!i10b 1
+R41
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/multiplier.vhd|
+Z51 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/multiplier.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 10 multiplier 0 22 6Gz^UQ<`]S3oXC[FTKRn@2
+!i122 435
+l14
+L13 6
+V_>:GYgTL2`Bl6A?Y=z9jM3
+!s100 eo25h0U`JYBl]JiIez6bX0
+R9
+32
+R36
+!i10b 1
+R41
+R50
+R51
+!i113 1
+R24
+R15
+Enot_gate
+R16
+R5
+R6
+!i122 436
+R17
+Z52 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/not_gate.vhd
+Z53 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/not_gate.vhd
+l0
+L4 1
+VOTTiVFYN:oOVCOZ;9A0dT3
+!s100 90HJ^dRL?VVDB2ec6T25[1
+R9
+32
+Z54 !s110 1701725589
+!i10b 1
+R41
+Z55 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/not_gate.vhd|
+Z56 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/not_gate.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 8 not_gate 0 22 OTTiVFYN:oOVCOZ;9A0dT3
+!i122 436
+l14
+L12 7
+VKQFoK;]gbd0J1HA4a0k0a3
+!s100 Xb@f7aPMnT>8GGNMz<>UF3
+R9
+32
+R54
+!i10b 1
+R41
+R55
+R56
+!i113 1
+R24
+R15
+Esimulation_sync_hw
+Z57 w1701725575
+R2
+R3
+R4
+R5
+R6
+!i122 437
+R17
+Z58 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/simulation_sync_hw.vhd
+Z59 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/simulation_sync_hw.vhd
+l0
+L7 1
+Vl;YYCJznJ<G>87MhnBzEL1
+!s100 L2gl8<JV2:AXNjja[1LR83
+R9
+32
+R54
+!i10b 1
+Z60 !s108 1701725589.000000
+Z61 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/simulation_sync_hw.vhd|
+Z62 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/simulation_sync_hw.vhd|
+!i113 1
+R24
+R15
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 18 simulation_sync_hw 0 22 l;YYCJznJ<G>87MhnBzEL1
+!i122 437
+l27
+L10 32
+VdZ?V7mk_OSe^km?XBF3h01
+!s100 iBBhPKnnL:7dCKM5lIGfX3
+R9
+32
+R54
+!i10b 1
+R60
+R61
+R62
+!i113 1
+R24
+R15
+Esync_arithmetic_hw
+Z63 w1701725454
+R5
+R6
+!i122 438
+R17
+Z64 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/sync_arithmetic_hw.vhd
+Z65 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/sync_arithmetic_hw.vhd
+l0
+L4 1
+V`CU_JzJF[zVf3@mdN[NCF2
+!s100 GU]LfG?8m_>3>A;;^JmU30
+R9
+32
+R54
+!i10b 1
+R60
+Z66 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/sync_arithmetic_hw.vhd|
+Z67 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/sync_arithmetic_hw.vhd|
+!i113 1
+R24
+R15
+Abehavioral
+R5
+R6
+DEx4 work 18 sync_arithmetic_hw 0 22 `CU_JzJF[zVf3@mdN[NCF2
+!i122 438
+l58
+L14 220
+VI[G@P5jI^AN`UWkHK:bBD0
+!s100 KjUUf;0@MM5UBWCj<QCfP3
+R9
+32
+R54
+!i10b 1
+R60
+R66
+R67
+!i113 1
+R24
+R15
+Ewallace_tree_multiplier
+Z68 w1701725199
+R5
+R6
+!i122 439
+R17
+Z69 8C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/wallace_tree_multiplier.vhd
+Z70 FC:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/wallace_tree_multiplier.vhd
+l0
+L4 1
+V03Q34DEUB]5d<XCIo^lAc0
+!s100 ]ONP]^0jB_MHGkFFoQIU`3
+R9
+32
+R54
+!i10b 1
+R60
+Z71 !s90 -reportprogress|300|-work|work|C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/wallace_tree_multiplier.vhd|
+Z72 !s107 C:/Users/Nitish Sundarraj/Desktop/Minimum Requirement v3/wallace_tree_multiplier.vhd|
+!i113 1
+R24
+R15
+Abehavior
+R5
+R6
+Z73 DEx4 work 23 wallace_tree_multiplier 0 22 03Q34DEUB]5d<XCIo^lAc0
+!i122 439
+l53
+Z74 L15 241
+Z75 VT[NI@Xk?65QK6ah7BNm113
+Z76 !s100 :6kZ3LUZ`df[5U^URh>]<2
+R9
+32
+R54
+!i10b 1
+R60
+R71
+R72
+!i113 1
+R24
+R15
