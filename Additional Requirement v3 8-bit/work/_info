@@ -328,7 +328,7 @@ R4
 DEx4 work 18 simulation_sync_hw 0 22 l;YYCJznJ<G>87MhnBzEL1
 !i122 244
 l34
-L10 39
+Z49 L10 39
 VmMebi^>V>W>_Lc66EWz;I2
 !s100 1<IGLP=MW9iP_7gWok@SO1
 R8
@@ -342,13 +342,13 @@ R48
 R13
 R14
 Esync_arithmetic_hw_ar
-Z49 w1701720675
+Z50 w1701720675
 R3
 R4
 !i122 245
 R5
-Z50 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
-Z51 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
+Z51 8F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
+Z52 FF:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd
 l0
 L4 1
 VSZX`;F`GnK0QjISNfc7;h2
@@ -357,28 +357,169 @@ R8
 32
 R46
 !i10b 1
-Z52 !s108 1701720681.000000
-Z53 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
-Z54 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
+Z53 !s108 1701720681.000000
+Z54 !s90 -reportprogress|300|-work|work|F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
+Z55 !s107 F:/Development/Projects/COEN-6501-Final-Project/Additional Requirement v3 8-bit/sync_arithmetic_hw_ar.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R3
 R4
-Z55 DEx4 work 21 sync_arithmetic_hw_ar 0 22 SZX`;F`GnK0QjISNfc7;h2
+DEx4 work 21 sync_arithmetic_hw_ar 0 22 SZX`;F`GnK0QjISNfc7;h2
 !i122 245
 l80
-Z56 L19 282
+L19 282
 VGMC1Uk@L0hKOR^ZJ22ck72
 !s100 Xj;zZCPeZI[8<D[]MgPSl0
 R8
 32
 R46
 !i10b 1
-R52
 R53
 R54
+R55
+!i113 1
+R13
+R14
+Etb_data_analyzer
+Z56 w1702269232
+R15
+R1
+R2
+R3
+R4
+!i122 256
+Z57 dE:/Applied Hands-on/COEN 6501 Final Project/Additional Requirement v3 8-bit
+Z58 8E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_data_analyzer.vhd
+Z59 FE:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_data_analyzer.vhd
+l0
+L7 1
+VAFaRS7dfQ5eV0Q>H_??G21
+!s100 z`ML0U>=7O@9R=]kn`9iR2
+R8
+32
+Z60 !s110 1702269248
+!i10b 1
+Z61 !s108 1702269248.000000
+Z62 !s90 -reportprogress|300|-work|work|E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_data_analyzer.vhd|
+Z63 !s107 E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_data_analyzer.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R15
+R1
+R2
+R3
+R4
+DEx4 work 16 tb_data_analyzer 0 22 AFaRS7dfQ5eV0Q>H_??G21
+!i122 256
+l28
+L10 64
+V[ZJ`OodjXg_JQ9OjaBL1c1
+!s100 HG9Amhj7l=F08WHS^GaVf0
+R8
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R13
+R14
+Etb_divider_2c
+Z64 w1702271579
+R15
+R1
+R2
+R3
+R4
+!i122 268
+R57
+Z65 8E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_divider_2c.vhd
+Z66 FE:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_divider_2c.vhd
+l0
+L7 1
+VHBjMXa4z`h2Ei@h4kkZ4e3
+!s100 Th>BCm;l80SQb00J`1R2>3
+R8
+32
+Z67 !s110 1702271586
+!i10b 1
+Z68 !s108 1702271586.000000
+Z69 !s90 -reportprogress|300|-work|work|E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_divider_2c.vhd|
+Z70 !s107 E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_divider_2c.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R15
+R1
+R2
+R3
+R4
+Z71 DEx4 work 13 tb_divider_2c 0 22 HBjMXa4z`h2Ei@h4kkZ4e3
+!i122 268
+l27
+R49
+VHj0VV7U72F9=_OIa@1G8B2
+!s100 G2chZ<90O]Bo`90I]FaLm0
+R8
+32
+R67
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R13
+R14
+Etb_generic_adder
+Z72 w1702265963
+R15
+R1
+R2
+R3
+R4
+!i122 249
+R57
+Z73 8E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_generic_adder.vhd
+Z74 FE:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_generic_adder.vhd
+l0
+L7 1
+V`h1Th3V<]E8f9;GdKoc3[0
+!s100 i4f3=8[2lgX:Ofhj<T^Xm0
+R8
+32
+Z75 !s110 1702265973
+!i10b 1
+Z76 !s108 1702265973.000000
+Z77 !s90 -reportprogress|300|-work|work|E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_generic_adder.vhd|
+Z78 !s107 E:/Applied Hands-on/COEN 6501 Final Project/Testbenches/tb_generic_adder.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R15
+R1
+R2
+R3
+R4
+DEx4 work 16 tb_generic_adder 0 22 `h1Th3V<]E8f9;GdKoc3[0
+!i122 249
+l24
+L10 35
+VT6k7P1If`hA7Xh_K1TIh23
+!s100 Q0gQ:PDACC]__ML<hbGKh2
+R8
+32
+R75
+!i10b 1
+R76
+R77
+R78
 !i113 1
 R13
 R14
