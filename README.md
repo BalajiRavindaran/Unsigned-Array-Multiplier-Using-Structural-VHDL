@@ -1,11 +1,9 @@
-This repository contains all the resources for the COEN 6501 [Digital System Design and Synthesis] Final Project.
-
-Minimum design requirements are as follows: 
-1. Model your circuit using structural VHDL. 
-2. Chose the multiplier among existing solutions (e.g., Array Multiplier, Booth Multiplier, 
-etc.) and justify your choice. 
-
-Our cicuit involves dealing with the unsigned values so other multipliers like booth multiplier does not make sense, so we can do the array multiplier or a wallace tree multiplier.   
-
-3. Provide a comprehensive testbench. Make sure to cover enough scenarios to validate 
-the correctness of your design. 
+<ul>
+  <li> "Designed and implemented a synthesizable arithmetic unit in VHDL capable of computing two complex mathematical expressions: P = (A * B) / 4 + 1 and P = (A * B) / 2^C + D." </li>
+  <li> Utilized high-performance multiplication architectures including Wallace Tree and Baugh-Wooley algorithms to optimize speed, area, and power consumption for FPGA deployment. </li>
+  <li> Modeled and simulated the arithmetic logic using Finite State Machines (FSMs) for control logic sequencing and state transitions. </li>
+  <li> Focused on core functional requirements such as precision, latency reduction, and hardware efficiency, while also addressing additional features like configurable operand handling and error detection mechanisms. </li>
+  <li> Synthesized and tested the design using tools such as Xilinx Vivado and ModelSim to validate performance metrics including timing, resource utilization, and throughput. </li>
+  <li> Applied modular design principles to ensure reusability, maintainability, and scalability of components across different FPGA platforms. </li>
+  <li> Documented the design process, simulation results, and synthesis reports for academic and engineering reference. </li>
+</ul>
