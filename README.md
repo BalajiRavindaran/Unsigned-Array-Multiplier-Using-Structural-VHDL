@@ -1,5 +1,5 @@
+## Unsigned-Array-Multiplier-Using-Structural-VHDL
 
-## Unsigned Array Multiplier Using Structural VHDL
 <ul>
   <li> "Designed and implemented a synthesizable arithmetic unit in VHDL capable of computing two complex mathematical expressions: P = (A * B) / 4 + 1 and P = (A * B) / 2^C + D." </li>
   <li> Utilized high-performance multiplication architectures including Wallace Tree and Baugh-Wooley algorithms to optimize speed, area, and power consumption for FPGA deployment. </li>
